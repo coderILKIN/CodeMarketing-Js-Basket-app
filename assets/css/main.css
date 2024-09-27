@@ -1,0 +1,92 @@
+.basket{
+    position: relative;
+    background-color: white;
+    padding: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+button{
+    border: none;
+    outline: none;
+}
+
+
+.basket-icon{
+    font-size: 18px;
+}
+
+
+.basket-number{
+    position: absolute;
+    top: -12px;
+    right: -14px;
+    padding: 1px 8px;
+    border-radius: 50%;
+    color: white;
+    background-color: red;
+}
+
+.basket-elemet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    margin: 4px;
+    border: 1px solid;
+    margin-bottom: 12px;
+}
+
+.basket-btn{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+
+
+.basket-btn button,
+.delete-btn
+{
+    font-size: 18px;
+    padding: 8px 12px;
+}
+
+.basket-btn span{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.delete-btn i{
+    color: red;
+}
+
+
+.products{
+    margin-top: 60px;
+}
+
+
+.product-img{
+    height: 400px;
+}
+
+
+.product-shop-btn{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: black;
+    padding: 16px 32px;
+    border-bottom-left-radius: 32px;
+}
+
+.product-shop-btn i{
+    color: white;
+    font-size: 32px;
+}
+
+.product-shop-btn.active i{
+    color: red;
+}
